@@ -23,3 +23,4 @@ urlpatterns = [
     url(r'', include('blog.urls')),
     url(r'^accounts/login/$', views.login, name='login'),
     url(r'^accounts/logout/$', views.logout, name='logout', 
+]
